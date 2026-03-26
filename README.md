@@ -23,6 +23,8 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [FinancialData.Net](https://financialdata.net/documentation) - Stock market data, financial statements, insider and institutional trading data, sustainability data, earnings releases, and much more.
  - [CoinPaprika](https://api.coinpaprika.com) - Free cryptocurrency market data API with real-time prices, OHLCV, and tickers for 7,000+ coins. No API key required.
  - [DexPaprika](https://api.dexpaprika.com) - Free DEX data API with real-time pool data, token prices, OHLCV, and trade history across all chains. No signup, no limits.
+ - [Pyth Network](https://docs.pyth.network/) - Delivers financial market data across every asset class through one API.
+ - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
 
 ### Transportation
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.
@@ -55,12 +57,24 @@ The list is separated into Free and Paid and broken into subsections based on lo
 
 ### IoT
 - [ThingSpeak IoT Public Channels](https://thingspeak.com/channels/public) - Crowdsourced IoT channels of users publishing various IoT sensor data in real-time. Accessible via REST API or MQTT API.
+- [Sensor.Community](https://sensor.community/en/) - 15,000+ air quality sensors worldwide, REST API.
 
 ### Cybersecurity
 - [Certstream](https://certstream.calidog.io) - Certstream provides a publicly accessible real‐time feed of certificate transparency logs, delivering live updates on SSL/TLS certificate issuance as it occurs.
 - [URLhaus](https://urlhaus.abuse.ch/api/) - Community-driven repository for real-time malicious URL data, offering actionable threat intelligence to block phishing and malware.
 - [CISA Automated Indicator Sharing (AIS)](https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/automated-indicator-sharing-ais) - US government-led service that enables public and private organizations to exchange machine-readable threat indicators in real time.
 - [Open Threat Exchange (OTX)](https://otx.alienvault.com/api) - Community-driven threat intelligence platform that streams real-time data on malicious IPs, domains, and URL through the OTX DirectConnect API.
+- [Shodan Streaming API](https://developer.shodan.io/api/stream) - Real-time feed of devices/banners discovered on the internet. Free tier available.
+- [GreyNoise Community API](https://docs.greynoise.io/reference/community-api) - Free IP intelligence lookups for identifying mass scanners and background noise on the internet.
+
+### Development & Testing
+-[Lenses Datagen](https://github.com/lensesio/datagen) - Open-source (Apache 2.0) synthetic streaming data generator by Lenses.io. Publishes to Kafka, Pulsar, or any target system. Ships with rich built-in datasets including sea vessel position reports (AIS), NYC taxi trips, telecom Italia network data, IoT device temperature readings, and more.
+- [Mockingbird by Tinybird](https://github.com/tinybirdco/mockingbird) - Open-source mock streaming data generator. Pairs well with EventSim which is already listed.
+- [SSE.dev](https://sse.dev/test) - Public SSE test endpoint with configurable intervals. Useful for streaming pipeline testing.
+  - `https://sse.dev/test?interval=5000`
+
+### AI/ML
+- [AI Detector Arena](https://aidetectarena.com) - Live leaderboard and benchmark dataset for evaluating AI-generated image detectors. Real-time rankings updated as new detectors are evaluated against 2,038 images across 17 AI generators. Data accessible via HTTP API. [[DOI]](https://doi.org/10.5281/zenodo.18620634)
 
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
@@ -70,6 +84,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [Live Satellite Positions](https://www.n2yo.com/api/) - N2YO.COM allows tracking of satellites through REST API with the NORAD catalog number assigned by the United States Space Command.
 - [Hacker News](https://github.com/HackerNews/API) - Near real-time news feed from Hacker News for tech and startup-related topics.
 - [Bluesky](https://docs.bsky.app/docs/advanced-guides/firehose) - Firehose is an authenticated stream of events on the protocol that underlies Bluesky, enabling efficient syncing of user updates via a WebSocket connection.
+- [SpaceX API](https://github.com/r-spacex/SpaceX-API) - Open-source REST API for SpaceX launches, rockets, capsules, landing pads.
 
 ## Paid
 
