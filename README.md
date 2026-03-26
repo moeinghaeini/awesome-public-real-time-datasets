@@ -69,6 +69,9 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [SSE.dev](https://sse.dev/test) - Public SSE test endpoint with configurable intervals. Useful for streaming pipeline testing.
   - `https://sse.dev/test?interval=5000`
 
+### AI/ML
+- [AI Detector Arena](https://aidetectarena.com) - Live leaderboard and benchmark dataset for evaluating AI-generated image detectors. Real-time rankings updated as new detectors are evaluated against 2,038 images across 17 AI generators. Data accessible via HTTP API. [[DOI]](https://doi.org/10.5281/zenodo.18620634)
+
 ### Other
 - [GitHub Events](https://github.com/fastai/ghapi) - Use the GitHub API to consume public events happening on GitHub.
 - [EventSim](https://github.com/viirya/eventsim) - Tool to simulate event data
