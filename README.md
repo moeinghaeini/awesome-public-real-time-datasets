@@ -21,6 +21,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
  - [CoinCap](https://docs.coincap.io) - Provides real-time pricing and market activity for over 1,000 cryptocurrencies
  - [Polygon.io](https://polygon.io/docs/stocks/getting-started) - Provides real‑time stock market and cryptocurrency data from all US exchanges via REST and WebSocket endpoints.
  - [FinancialData.Net](https://financialdata.net/documentation) - Stock market data, financial statements, insider and institutional trading data, sustainability data, earnings releases, and much more.
+ - [Agent Gateway](https://agent-gateway-kappa.vercel.app/prices) - Free REST API for real-time prices of 500+ crypto tokens via Hyperliquid. No API key required. Poll `GET /prices` for live market data.
 
 ### Transportation
  - [Open Rail Data](https://wiki.openraildata.com/index.php/Rail_Data_FAQ) - A collection of APIs that provide data relating to the UK rail network, including reference data, train timetables, and live service updates. The live data is streamed using the STOMP protocol.
