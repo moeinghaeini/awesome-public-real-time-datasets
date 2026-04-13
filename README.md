@@ -70,7 +70,7 @@ The list is separated into Free and Paid and broken into subsections based on lo
 - [GreyNoise Community API](https://docs.greynoise.io/reference/community-api) - Free IP intelligence lookups for identifying mass scanners and background noise on the internet.
 
 ### Development & Testing
--[Lenses Datagen](https://github.com/lensesio/datagen) - Open-source (Apache 2.0) synthetic streaming data generator by Lenses.io. Publishes to Kafka, Pulsar, or any target system. Ships with rich built-in datasets including sea vessel position reports (AIS), NYC taxi trips, telecom Italia network data, IoT device temperature readings, and more.
+- [Lenses Datagen](https://github.com/lensesio/datagen) - Open-source (Apache 2.0) synthetic streaming data generator by Lenses.io. Publishes to Kafka, Pulsar, or any target system. Ships with rich built-in datasets including sea vessel position reports (AIS), NYC taxi trips, telecom Italia network data, IoT device temperature readings, and more.
 - [Mockingbird by Tinybird](https://github.com/tinybirdco/mockingbird) - Open-source mock streaming data generator. Pairs well with EventSim which is already listed.
 - [SSE.dev](https://sse.dev/test) - Public SSE test endpoint with configurable intervals. Useful for streaming pipeline testing.
   - `https://sse.dev/test?interval=5000`
